@@ -14,24 +14,24 @@
             <table>
             <tbody>
                 <tr>
-                    <td><button id="0" class="game-button">X</button></td>
-                    <td><button id="1" class="game-button">O</button></td>
-                    <td><button id="2" class="game-button"></button></td>
+                    <td><button id="0" class="game-button" onclick="makeMove(this.id)">X</button></td>
+                    <td><button id="1" class="game-button" onclick="makeMove(this.id)">O</button></td>
+                    <td><button id="2" class="game-button" onclick="makeMove(this.id)"></button></td>
                 </tr>
                 <tr>
-                    <td><button id="3" class="game-button"></button></td>
-                    <td><button id="4" class="game-button"></button></td>
-                    <td><button id="5" class="game-button"></button></td>
+                    <td><button id="3" class="game-button" onclick="makeMove(this.id)"></button></td>
+                    <td><button id="4" class="game-button" onclick="makeMove(this.id)"></button></td>
+                    <td><button id="5" class="game-button" onclick="makeMove(this.id)"></button></td>
                 </tr>
                 <tr>
-                    <td><button id="6" class="game-button"></button></td>
-                    <td><button id="7" class="game-button"></button></td>
-                    <td><button id="8" class="game-button"></button></td>
+                    <td><button id="6" class="game-button" onclick="makeMove(this.id)"></button></td>
+                    <td><button id="7" class="game-button" onclick="makeMove(this.id)"></button></td>
+                    <td><button id="8" class="game-button" onclick="makeMove(this.id)"></button></td>
                 </tr>
             </tbody>
             </table>
             </div>
-            <p id="game-status">Current Player:</p>
+            <!-- <p id="game-status">Current Player:</p> -->
             <div class="button-container"><button onclick="resetGame()" id="reset-button">Reset Board</button></div>
           </div>
 
