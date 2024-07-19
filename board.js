@@ -15,6 +15,11 @@ class Board {
         this.currentPlayer = 0;
         this.winner = -1; // -1=game not over, 0=nought, 1=cross, 2=draw
         this.flag = false; 
+        for(let row=0; row<3; row++) {
+            for(let col=0; col<3; col++) {
+                document.getElementById((row*3 + col).toString()).textContent = " ";
+            }
+        }
     }
 
     makemove(pos) {
