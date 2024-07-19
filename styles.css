@@ -1,0 +1,59 @@
+html {
+    background-color: black;
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td {
+    padding: 0px;
+    background-color:black;
+    border-color: greenyellow;
+    border-style: solid;
+    margin: 0;
+}
+
+.game-container {
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 750px;
+    padding: 50px;
+}
+
+.game-button {
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    background-color: black;
+    border: none;
+    color: greenyellow;
+}
+
+#game-status {
+    display: block;
+    width: auto;
+    padding: 0 300px;
+    color: whitesmoke;
+}
+
+.board {
+    margin: 10px;
+}
+
+#reset-button {
+    margin: auto;
+    padding: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.button-container {
+    margin: auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tic Tac Toe">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="styles.css">
+         
+    </head>
+    <body>
+        <div id="main-border" class="game-container">
+            <div class="board">
+            <table>
+            <tbody>
+                <tr>
+                    <td><button id="0" class="game-button">X</button></td>
+                    <td><button id="1" class="game-button">O</button></td>
+                    <td><button id="2" class="game-button"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="3" class="game-button"></button></td>
+                    <td><button id="4" class="game-button"></button></td>
+                    <td><button id="5" class="game-button"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="6" class="game-button"></button></td>
+                    <td><button id="7" class="game-button"></button></td>
+                    <td><button id="8" class="game-button"></button></td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            <p id="game-status">Current Player:</p>
+            <div class="button-container"><button onclick="resetGame()" id="reset-button">Reset Board</button></div>
+          </div>
+
+
+          <script src="board.js"></script> 
+          <script src="script.js"></script>
+    </body>
+</html>
